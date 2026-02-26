@@ -8,7 +8,7 @@ Prerequisites for this course: Although not required, familiarity with python or
 
 Please fill the questionnaire [here](https://forms.gle/PYmq6XzmxuVkjsLU6) as soon as possible. 
 
-Please follow the steps in the Preparation Page before the second week, when we start the hands-on practices.
+Please follow the steps in the Preparation Page before the course starts.
 
 
 
@@ -16,7 +16,7 @@ Please follow the steps in the Preparation Page before the second week, when we 
 
 We’ll start by exploring the most used bioinformatics resources for variety of different data sets, continue with practices on genomics, spatial transcriptomics and single cell sequencing. We’ll cover the best practices and common challenges in this practice as a foundation to the understanding of bioinformatics pipelines. Rest of the course, you’ll be working in smaller project groups. You’ll be able to choose projects on clustering, immunobiology, and cancer genomics, images etc. As you can see, majority of the course will be hands-on allowing you to practice your acquired knowledge.
 
-At the end students will 
+At the end participants will 
 
 - realize the wealth of bioinformatics database structures and the -omic tools 
 
@@ -48,43 +48,33 @@ At the end students will
 
 19:45 - 20:30 preparations for the genomics practice session
 
-### Week 2: Genomics
+### Week 2: Genomics and transcriptomics
 
-17:30 - 18:00 introduction to HPC and terminal
-
-18:00 - 18:30 setting up the workspace for the genomics practice
-
-18:30 - 18:45 break
-
-18:45 - 19:30 genomics practice 
+17:30 - 19:30 genomics practice questions and discussion
 
 19:30 - 19:45 break
 
-19:45 - 20:30 discussion of the results from the practice session
+19:45 - 20:30 introduction to transcriptomics
 
-### Week 3: Transcriptomics (spatial & single-cell)
-
-17:30 - 18:30 introduction to spatial and single cell transcriptomics
-
-18:30 - 18:45 break
-
-18:45 - 19:45 practice on the clustering with single cell and spatial data
-
-19:45 - 20:00 break
-
-20:00 - 20:30 practice on alignment of single cell transcriptomics data
-
-### Week 4: Projects
+### Week 3: Single cell, spatial and other variations studies
 
 17:30 - 18:30 Mutations and their study in omics
 
 18:30 - 18:45 break
 
-18:45 - 19:30 an introduction of possible downstream aanalyses on omics and project selection 
+18:45 - 19:45 introduction to spatial and single cell data analysis
 
-19:30 - 19:50 break
+19:45 - 20:00 break
 
-19:50 - 20:30 first meeting with the project supervisors and start to the project work
+20:00 - 20:30 practice on the clustering with single cell and spatial data
+
+### Week 4: Projects
+
+17:30 - 18:30 Project selection
+
+18:30 - 18:45 break
+
+18:45 - 20:30 meeting-up with the project supervisors and project work kick-off
 
 ### Week 5: Project Presentations
 
@@ -101,7 +91,7 @@ At the end students will
 
 ## Methodology
 
-The module will consist of lectures and practical exercises. In addition to lectures, students will be required to self-study selected topics. Students will work in groups on a data challenge and present their results at the end of the course. 
+The module will consist of lectures and practical exercises. In addition to lectures, participants will be required to self-study selected topics. Participants will work in groups on a data challenge and present their results at the end of the course. 
 
 Exercises during the course: 50%
 Data challenge: 50%
