@@ -1,5 +1,5 @@
 ## Table of Contents
-1. [Run on gitpod](#run-on-gitpod)
+1. [Run in GitHub Codespace](#run-on-gitpod)
 2. [Run on HPC](#run-on-hpc)
 3. [Run Locally](#run-locally)
 4. [Pipeline Details](#pipeline-details)
@@ -10,13 +10,20 @@
 ## Run on gitpod
 This method involves uploading the required input files directly to gitpod and running the nextflow pipeline from there. It is the fastest and most efficient way to execute the pipeline.
 
-#### **1. Open gitpod**
-Click the link below to launch gitpod with the repository:  
+#### **1. Launch GitHub Codespaces**
 
-[Open in gitpod](https://gitpod.io/new/#https://github.com/acg-team/Bioinfo4B)  
+Open in [Codespace](https://codespaces.new/acg-team/Bioinfo4B?quickstart=1)
 
-#### **2. Navigate to the pipeline folder**
-Once gitpod loads, navigate to the following directory:  
+#### **3. Open a terminal**
+
+In Codespaces:
+
+```
+Terminal → New Terminal
+```
+
+#### **3. Navigate to the pipeline folder**
+Navigate to the following directory:  
 
 ```
 cd Genomics/nextflow_bioinformatics4beginners
@@ -25,9 +32,9 @@ cd Genomics/nextflow_bioinformatics4beginners
 This is where the nextflow pipeline is located.  
 
 #### **3. Download input files**  
-We need to create an `input` folder and place the required files there. These files are not hosted on GitHub due to their size. You can download them from [google drive](https://drive.google.com/file/d/13_op58XI3L3S2DGsd1r7zLmh9GYyevXF/view?usp=sharing).
+We need to create an `input` folder and place the required files there. These files are not hosted on GitHub due to their size. You can download them from [google drive](https://drive.google.com/file/d/13_op58XI3L3S2DGsd1r7zLmh9GYyevXF/view?usp=sharing). Then drag unpacked folder to `nextflow_bioinformatics4beginners`
 
-After you upload them on gitpod, you should have following structure
+After you upload them to the Codespace, you should have following structure
 ```
 
  Genomics
@@ -44,7 +51,7 @@ After you upload them on gitpod, you should have following structure
 After placing the input files, execute the Nextflow pipeline with the following command:  
 
 ```bash
-nextflow run main.nf -profile docker \
+nextflow run main.nf -profile conda \
     --input $(realpath input/reads.fastq)  \
     --reference $(realpath input/chrM.fa) \
     --outdir $(realpath results)
