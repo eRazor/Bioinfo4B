@@ -1,5 +1,5 @@
 ## Table of Contents
-1. [Run in GitHub Codespace](#run-on-gitpod)
+1. [Run in GitHub Codespace](#run-in-github-codespaces)
 2. [Run on HPC](#run-on-hpc)
 3. [Run Locally](#run-locally)
 4. [Pipeline Details](#pipeline-details)
@@ -7,7 +7,7 @@
     - [Configuration Files](#configuration-files)
     - [SLURM Configuration](#slurm-configuration)
 
-## Run on gitpod
+## Run in GitHub Codespaces
 This method involves uploading the required input files directly to gitpod and running the nextflow pipeline from there. It is the fastest and most efficient way to execute the pipeline.
 
 #### **1. Launch GitHub Codespaces**
