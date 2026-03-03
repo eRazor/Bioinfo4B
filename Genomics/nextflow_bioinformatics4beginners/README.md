@@ -16,14 +16,12 @@ Open in [Codespace](https://codespaces.new/acg-team/Bioinfo4B?quickstart=1)
 
 #### **3. Open a terminal**
 
-In Codespaces:
+In Codespaces click on "Terminal" button above and create a new Terminal
 
-```
-Terminal → New Terminal
-```
+![alt text](img/new_terminal.png)
 
 #### **3. Navigate to the pipeline folder**
-Navigate to the following directory:  
+Navigate to the following directory by writing following in Terminal:  
 
 ```
 cd Genomics/nextflow_bioinformatics4beginners
@@ -32,7 +30,22 @@ cd Genomics/nextflow_bioinformatics4beginners
 This is where the nextflow pipeline is located.  
 
 #### **3. Download input files**  
-We need to create an `input` folder and place the required files there. These files are not hosted on GitHub due to their size. You can download them from [google drive](https://drive.google.com/file/d/13_op58XI3L3S2DGsd1r7zLmh9GYyevXF/view?usp=sharing). Then drag unpacked folder to `nextflow_bioinformatics4beginners`
+Here is a clearer and more precise version of that section, explicitly stating that the whole folder should be downloaded (not individual files):
+
+---
+
+#### **3. Download input folder**
+
+The input files are provided as a **pre-made folder called `input`**.
+They are not hosted on GitHub due to their size.
+
+Download the **entire `input` folder** from [google drive](https://drive.google.com/file/d/13_op58XI3L3S2DGsd1r7zLmh9GYyevXF/view?usp=sharing)
+
+After downloading:
+
+1. Unpack the archive.
+2. You should now have a folder named `input`.
+3. Drag the **whole `input` folder** under the `nextflow_bioinformatics4beginners` directory.
 
 After you upload them to the Codespace, you should have following structure
 ```
