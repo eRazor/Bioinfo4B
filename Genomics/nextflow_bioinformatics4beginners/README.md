@@ -67,7 +67,7 @@ nextflow run main.nf -profile conda \
 
 This will process the provided sequencing data and store the results in the `results` folder.  
 
-## Run on HPC
+## Run on HPC (you may do this as a project, if you have a ZHAW account)
 
 #### **1. Set up working directory**
 Navigate to your scratch space and create a folder for the pipeline:
