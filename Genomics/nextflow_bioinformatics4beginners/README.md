@@ -14,7 +14,7 @@ This method involves uploading the required input files directly to gitpod and r
 
 Open in [Codespace](https://codespaces.new/acg-team/Bioinfo4B?quickstart=1)
 
-#### **3. Open a terminal**
+#### **2. Open a terminal**
 
 In Codespaces click on "Terminal" button above and create a new Terminal
 
@@ -29,12 +29,7 @@ cd Genomics/nextflow_bioinformatics4beginners
 
 This is where the nextflow pipeline is located.  
 
-#### **3. Download input files**  
-Here is a clearer and more precise version of that section, explicitly stating that the whole folder should be downloaded (not individual files):
-
----
-
-#### **3. Download input folder**
+#### **4. Download input folder**
 
 The input files are provided as a **pre-made folder called `input`**.
 They are not hosted on GitHub due to their size.
@@ -60,7 +55,7 @@ After you upload them to the Codespace, you should have following structure
 
 ```
 
-#### **4. Run the pipeline**
+#### **5. Run the pipeline**
 After placing the input files, execute the Nextflow pipeline with the following command:  
 
 ```bash
