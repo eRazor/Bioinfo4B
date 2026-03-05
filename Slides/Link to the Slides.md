@@ -1,4 +1,4 @@
-[Link to Tugce's slides]([https://drive.google.com/file/d/1-Pw0ddo0vHX1xWQpIS-YJ4uIYHS68yDM/view?usp=share_link](https://zhaw-my.sharepoint.com/:f:/g/personal/bilg_zhaw_ch/IgBVsIxqk8ncToppglDqQG_uAThIi5Ie8KhB0JN_0NC70sU?e=Fm7tQA))
+[Link to Tugce's slides](https://zhaw-my.sharepoint.com/:f:/g/personal/bilg_zhaw_ch/IgBVsIxqk8ncToppglDqQG_uAThIi5Ie8KhB0JN_0NC70sU?e=Fm7tQA)
 
 [Nextflow lecture slides](https://docs.google.com/presentation/d/1M7EPdNla4kKHIy8v4cumXHS3EhB1cTnYUY5xdgurF24/edit?usp=sharing)
 
