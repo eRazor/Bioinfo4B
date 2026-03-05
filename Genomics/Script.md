@@ -53,9 +53,7 @@ In these files, some general statistics about the sequences are displayed.
 
 The pattern we see here is quite common for illumina short read libraries: The read quality is slightly lower at the beginning and at the end of the read. We see the consequences of these lower sequencing quality scores when we look at the “Per base sequence content” (select the report via the list on the left). This report illustrates the frequency of each base across all reads on this position.
 
- •	When looking at the report, what do you notice concerning the base frequencies and how does it connect to the overall quality graph above?
-
-- What differences do you notice between plots? Why do you think?
+ •	When looking at the report, what do you notice concerning the base frequencies and how does it connect to the overall quality graph above? What differences do you notice between plots? Why do you think?
   
 •	We do not want to use bad quality base calls for our alignments and variant calling later on. Why? What would be the risk if we DID use all reads despite low sequencing quality?
 
@@ -76,10 +74,10 @@ Next you align your short reads to the reference genome, using the reference fil
 
 > [!TIP]
 > Click on the alignment.txt to see your alignments.
-
+> 
 > 
 > Here you may find more information on aligment files: https://samtools.github.io/hts-specs/SAMv1.pdf
-
+> 
 > 
 > And these are the websites of the tools we use for alignment: 
 https://bowtie-bio.sourceforge.net/bowtie2/index.shtml
