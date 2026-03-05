@@ -65,7 +65,7 @@ The pattern we see here is quite common for illumina short read libraries: The r
   
 ### Alignment to the reference genome
 
-- Aligning reads to a genome can be viewed in the general context as string matching. The goal is to find a pattern (the short-read) in a large text (the reference genome), allowing for mismatches and indels. Naively, you can scan the text for the pattern but this is inefficient. There are techniques to pre-process (or index) the text to make queries fast and also that can even compress the size of the text. Bowtie2 uses this technique for ultrafast and memory-efficient aligment of sequencing reads to long reference sequences, which also supports paired-end alignment modes. We use bowtie2 commands to align the short reads. 
+Aligning reads to a genome can be viewed in the general context as string matching. The goal is to find a pattern (the short-read) in a large text (the reference genome), allowing for mismatches and indels. Naively, you can scan the text for the pattern but this is inefficient. There are techniques to pre-process (or index) the text to make queries fast and also that can even compress the size of the text. Bowtie2 uses this technique for ultrafast and memory-efficient aligment of sequencing reads to long reference sequences, which also supports paired-end alignment modes. We use bowtie2 commands to align the short reads. 
 
 First, you index your reference genome, so that reads are quickly aligned. 
 Note that for each different toolbox like SAMTools or bowtie2, you should index your reference genome by using their own commands. 
@@ -74,14 +74,12 @@ Next you align your short reads to the reference genome, using the reference fil
 
 > [!TIP]
 > Click on the alignment.txt to see your alignments.
-> 
+
 > 
 > Here you may find more information on aligment files: https://samtools.github.io/hts-specs/SAMv1.pdf
 > 
-> 
 > And these are the websites of the tools we use for alignment: 
 https://bowtie-bio.sourceforge.net/bowtie2/index.shtml
-
 > 
 > http://samtools.sourceforge.net/samtools.shtml
 
