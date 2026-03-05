@@ -24,6 +24,9 @@ https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit
 
 ## Pre-processing: 
 
+> [!TIP]
+> This step is executed by the nextflow pipeline, when you run it on gitpod. All the results are created under the results folder. Wherever you see a Tip sign, check them out yourself. Mostly they are simple tasks for you to understand what the genomics pipeline does, how do the outputs of each step look like.   
+
 ### Trim and filter the reads
  
 The large variation in quality scores and the identified biases in sequence content per base should be dealt with before we proceed with our analyses. We do this in two steps. First, we remove the low quality bases at the beginning and the end of the reads (trimming). In a second filtering step we remove all reads that have a high number of low-quality base calls in the middle section. 
@@ -32,8 +35,8 @@ For the trimming: We remove the first 20 bases (-f 20) and that the last positio
 
 For the filtering: We filter out the dataset for reads that have more than 95% (-p 95) of bases above a sequencing quality of 30 (-q 30). All reads that do not fulfil this criterion are discarded.
 
-If you have time explore what each paramater does and take note in your worksheet:
--  Check out the fastx-toolkit content with a pair: http://hannonlab.cshl.edu/fastx_toolkit/commandline.html List two commands that look potentially useful, explore those and share with others. 
+> 
+> If you have time explore what each paramater does: http://hannonlab.cshl.edu/fastx_toolkit/commandline.html List two commands that look potentially useful. 
 
 ### Check out the Quality
 Each character there represents a quality value. Phred quality scores Q are defined as a property, which is logarithmically related to the base-calling error probabilities P. For example, if Phred assigns a quality score of 30 to a base, the chances that this base is called incorrectly are 10^((-30)/10)=0.001. This means that 1 out of 1000 calls with this quality score is actually wrong. Most studies put the threshold of base quality at 20 or more ideally at 30.
@@ -44,7 +47,8 @@ Each character there represents a quality value. Phred quality scores Q are defi
 In these files, some general statistics about the sequences are displayed.
 - The basic statistics are some very basic facts about your sequence library such as the number of reads, GC content and sequence lengths. The number of reads in the library is usually the first thing to look at. Although it is no guarantee for good data, a high read count is usually a good sign.
 
-Click on “Per base sequencing quality” on the left. A boxplot is displayed. On the x-axis you can see the position within the read and on the y-axis the phred scaled quality score distribution across all reads at this position.
+> [!TIP]
+> Click on “Per base sequencing quality” on the left. A boxplot is displayed. On the x-axis you can see the position within the read and on the y-axis the phred scaled quality score distribution across all reads at this position.
 •	What do you notice regarding the shape of the curve?
 
 The pattern we see here is quite common for illumina short read libraries: The read quality is slightly lower at the beginning and at the end of the read. We see the consequences of these lower sequencing quality scores when we look at the “Per base sequence content” (select the report via the list on the left). This report illustrates the frequency of each base across all reads on this position.
@@ -57,7 +61,9 @@ The pattern we see here is quite common for illumina short read libraries: The r
 
 •	Why do you think it makes sense to do the trimming first?
 •	Could/should you trim more based on your graphs? What do you think?
-This is the website of the program we used: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+
+> 
+> This is the website of the program we used: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
   
 ### Alignment to the reference genome
 
@@ -71,18 +77,21 @@ Next you align your short reads to the reference genome, using the reference fil
 > [!TIP]
 > Click on the alignment.txt to see your alignments.
 
-Here you may find more information on aligment files: https://samtools.github.io/hts-specs/SAMv1.pdf
+> 
+> Here you may find more information on aligment files: https://samtools.github.io/hts-specs/SAMv1.pdf
 
-And these are the websites of the tools we use for alignment: 
+> 
+> And these are the websites of the tools we use for alignment: 
 https://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 
-http://samtools.sourceforge.net/samtools.shtml
+> 
+> http://samtools.sourceforge.net/samtools.shtml
 
 ### Visualize the sequence depth
 Of course we are now interested in how much of the mitochondrial genome we actually cover with our reads (and how many times we cover each position in the genome). 
 
 > [!TIP]
-> Create a scatterplot in python by using the file called depth.csv and the script Plot Depth.ipynb for this purpose. They are also in your gitpod.
+> Create a scatterplot in python by using the file called depth.csv and the script Plot Depth.ipynb for this purpose. They are also in your gitpod under the genomics folder. Scroll down the left side bar to find the script and run it within gitpod.
 
 •	What is the lowest depth in your dataset? What does it mean?
 
