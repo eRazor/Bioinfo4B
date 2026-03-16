@@ -67,6 +67,10 @@ nextflow run main.nf -profile conda \
 
 This will process the provided sequencing data and store the results in the `results` folder.  
 
+#### **6. Results**
+
+In case you had problems running the pipeline, you can download the results [here](https://drive.google.com/file/d/1MQqo71Vr7mgnnU2SJODo_JN2l7sK8G6e/view?usp=sharing) and continue with the downstream analysis.
+
 ## Run on HPC (you may do this as a project, if you have a ZHAW account)
 
 #### **1. Set up working directory**

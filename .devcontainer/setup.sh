@@ -14,19 +14,9 @@ echo "[setup] Installing Python dev tools..."
 /opt/conda/bin/python -m pip install --upgrade pip
 /opt/conda/bin/python -m pip install pre-commit ipykernel
 
-# Install your repo requirements if present
-if [[ -f "requirements.txt" ]]; then
-  echo "[setup] Installing requirements.txt..."
-  /opt/conda/bin/python -m pip install -r requirements.txt
-else
-  echo "[setup] No requirements.txt found, skipping."
-fi
-
-# Pre-commit (optional)
-if command -v pre-commit >/dev/null 2>&1; then
-  echo "[setup] Installing pre-commit hooks (if config exists)..."
-  pre-commit install --install-hooks || true
-fi
+# Install repo requirements
+echo "[setup] Installing requirements.txt..."
+/opt/conda/bin/python -m pip install -r requirements.txt
 
 # --- Jupyter kernel (Conda base) ---
 echo "[setup] Registering Jupyter kernel..."
