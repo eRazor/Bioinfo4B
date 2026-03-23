@@ -4,6 +4,6 @@
 
 [Link to the projects slides](https://drive.google.com/file/d/1H1iyjpLCXt6qe-hSdaKr1C6lq4kL2lzk/view?usp=sharing)
 
-[Link to Maria's slides](https://github.com/acg-team/Databiomix_Reporting_Tool)
+[Link to Maria's slides](https://zhaw-my.sharepoint.com/:b:/g/personal/bilg_zhaw_ch/IQDMAO8jgqMaQr_2NEFbPJNLAfOg88cWzi1CdaSvJHKFvg4?e=qksQh8)
 
 [Link to TME slides](https://docs.google.com/presentation/d/1DzqbZ1_kNfcaruCJgu3rmvcpytsWK0NiGINJ9gWcCLQ/edit?usp=sharing)
