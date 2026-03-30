@@ -2,7 +2,7 @@
 
 [Nextflow lecture slides](https://docs.google.com/presentation/d/1M7EPdNla4kKHIy8v4cumXHS3EhB1cTnYUY5xdgurF24/edit?usp=sharing)
 
-[Link to the projects slides](https://drive.google.com/file/d/1H1iyjpLCXt6qe-hSdaKr1C6lq4kL2lzk/view?usp=sharing)
+[Link to the projects slides](https://zhaw-my.sharepoint.com/:b:/g/personal/bilg_zhaw_ch/IQAnicrNlCTIRq0541b_C26jATd3k1_nGIV_LF3Qh7yDumM?e=c0GVW4)
 
 [Link to Maria's slides](https://zhaw-my.sharepoint.com/:b:/g/personal/bilg_zhaw_ch/IQDMAO8jgqMaQr_2NEFbPJNLAfOg88cWzi1CdaSvJHKFvg4?e=qksQh8)
 
