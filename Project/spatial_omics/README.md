@@ -1,7 +1,5 @@
 # Spatial Omics Analysis Project  
 
----
-
 ## Project Overview
 
 In this project, you will perform **spatial omics analysis** using mouse brain data.  
@@ -21,7 +19,6 @@ By the end of this project, you will be able to:
 - Load and preprocess **spatial transcriptomics data**
 - Perform **spatial domain identification**
 - Analyze **cellular neighborhoods**
-- Interpret spatial gene expression patterns
 
 ---
 
@@ -51,17 +48,16 @@ https://cf.10xgenomics.com/samples/spatial-exp/2.0.0/CytAssist_FFPE_Mouse_Brain_
 
 ---
 
-### Extract compressed files
+### Folder structure
 
 ```
-project_folder/
-│
-├── filtered_feature_bc_matrix.h5
+sample_folder/
 ├── spatial/
-│   ├── tissue_positions_list.csv
-│   ├── scalefactors_json.json
 │   ├── tissue_hires_image.png
-│   └── tissue_lowres_image.png
+│   ├── scalefactors_json.json
+│   └── tissue_positions.csv   (or tissue_positions_list.csv)
+├── filtered_feature_bc_matrix.h5
+├── clusters.csv
 ```
 
 ### Data Loading 
